@@ -36,7 +36,7 @@ main>section {
 
 .first-part {
     text-align: center;
-    background-image: url('/images/banner-image.png');
+    background-image: url('/images/bannerimage.png');
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 300px;
@@ -97,7 +97,7 @@ main>section {
 
 #main-second-part {
     text-align: left;
-    background-image: url('/images/vector.png');
+    background-image: url('/images/celebration.png');
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0;
