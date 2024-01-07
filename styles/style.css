@@ -3,6 +3,17 @@
     margin: 0;
 }
 
+
+/* font family link  */
+
+.merriweather-font {
+    font-family: 'Merriweather';
+}
+
+.inter-font {
+    font-family: 'Inter', sans-serif;
+}
+
 /* css for share others code  */
 
 main>section {
@@ -128,7 +139,7 @@ main>section {
 
 /* css for share fourth part  */
 
-#main-fourth-part {
+.main-fourth-part {
     margin-top: 80px;
 }
 
@@ -161,6 +172,8 @@ main>section {
     margin-top: 25px;
     width: 424px;
     height: 450px;
+    opacity: 0.6;
+    transition: width 2s, height 4s;
 }
 
 /* css for final part  */
@@ -196,7 +209,7 @@ main>section {
 
 /* css for footer part */
 
-footer {
+.footer {
     background-color: #000000;
     padding: 50px 150px;
 }
@@ -231,4 +244,33 @@ footer {
     justify-content: center;
     margin: 40px auto;
     gap: 35px;
+}
+
+
+/* css for hover  */
+
+/* social icons hover  */
+#social-icons>a:hover {
+    background-color: #f17bb2a6;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px #f17bb2d0;
+}
+
+/* main context image hover  */
+
+.flex>img:hover {
+    opacity: 1;
+    cursor: zoom-in;
+    height: 500px;
+    width: 500px;
+}
+
+/* hover for button  */
+.join-button:hover {
+    border-radius: 5px;
+    background: #e0dd06;
+    border: 0;
+    padding: 15px 35px;
+    color: rgb(236, 7, 7);
+    box-shadow: 5px 5px 30px 5px #f17bb2d0;
 }
