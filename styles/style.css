@@ -13,7 +13,7 @@ main>section {
 
 .join-button {
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #fd0505;
     border: 0;
     padding: 15px 35px;
     color: white;
@@ -145,6 +145,7 @@ main>section {
 }
 
 .same-context {
+    margin: 25px auto;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
@@ -158,7 +159,35 @@ main>section {
 
 .flex img {
     margin-top: 25px;
+    width: 424px;
+    height: 450px;
 }
 
 /* css for final part  */
 
+#main-final-part {
+    margin: 75px auto;
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.input-s {
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 60px 5px 25px;
+}
+
+#button-s {
+    margin-left: -20px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    background-color: #F00;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
