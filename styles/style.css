@@ -1,0 +1,99 @@
+/* css for full website */
+* {
+    margin: 0;
+}
+
+/* css for share others code  */
+
+.join-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* css for header part  */
+
+.first-part {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1320px;
+    background-image: url('/images/Banner-Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 300px;
+}
+
+.new-year {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.celebration {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* css for main part  */
+
+/* main first part css  */
+.main-first-part {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.349);
+    padding: 50px;
+}
+
+.main-first-part>h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.main-first-part>h3 {
+    margin-top: 25px;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main-first-part>h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.newYearImage {
+    margin-top: 25px;
+}
+
+/* css for main second part  */
+
+#main-second-part {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1320px;
+    background-image: url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 200px;
+}
+
+#content {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 35px;
+}
