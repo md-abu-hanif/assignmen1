@@ -185,7 +185,33 @@ main>section {
     font-weight: 700;
 }
 
-/* css for share fourth part  */
+/* css for bonus sell part  */
+
+.bonus-sell-part {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.bonus-sell-bg {
+    display: flex;
+    gap: 25px;
+    background-image: url('../images/rectangle-2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#group-44 {
+    position: absolute;
+    margin-left: -120px;
+}
+
+#girl {
+    padding-left: 63px;
+    height: 438px;
+}
+
+
+/* css for fourth part  */
 
 .main-fourth-part {
     margin-top: 80px;
