@@ -3,8 +3,7 @@
     margin: 0;
 }
 
-
-/* font family link  */
+/* font family css */
 
 .merriweather-font {
     font-family: 'Merriweather';
@@ -30,6 +29,27 @@ main>section {
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+
+.same-context {
+    margin: 25px auto;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.profile-news-Latter {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best {
+    color: #F00;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* css for header part  */
@@ -64,7 +84,7 @@ main>section {
     margin-top: 50px;
     text-align: center;
     background-color: rgba(255, 228, 196, 0.349);
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .main-first-part>h1 {
@@ -118,7 +138,6 @@ main>section {
 /* css for third part  */
 
 .main-third-part {
-    /* border-radius: 20px; */
     text-align: center;
     background-image: linear-gradient(#ff00001e, #FF000000);
     background-position: center;
@@ -137,30 +156,37 @@ main>section {
     color: red;
 }
 
+/* css for bonus part  */
+
+.bonus-part {
+    display: flex;
+    gap: 70px;
+    margin: 50px auto;
+    padding: 100px 20px;
+    justify-content: space-between;
+    background-image: linear-gradient(#FF000000, #ff00001e);
+}
+
+#bonus-image {
+    border: 10px solid #F00;
+    border-radius: 60%;
+}
+
+#bonus-image>img {
+    border: 20px solid #FFF;
+    border-radius: 60%;
+}
+
+#year-color {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 /* css for share fourth part  */
 
 .main-fourth-part {
     margin-top: 80px;
-}
-
-.profile-news-Latter {
-    color: #070211;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.best {
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.same-context {
-    margin: 25px auto;
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
 }
 
 .flex {
@@ -192,7 +218,6 @@ main>section {
     padding: 5px 100px 5px 25px;
     outline: none;
 }
-
 
 #button-s {
     margin-left: -15px;
@@ -246,7 +271,6 @@ main>section {
     gap: 35px;
 }
 
-
 /* css for hover  */
 
 /* social icons hover  */
@@ -266,6 +290,7 @@ main>section {
 }
 
 /* hover for button  */
+
 .join-button:hover {
     border-radius: 5px;
     background: #e0dd06;
