@@ -116,6 +116,9 @@ main>section {
 /* css for main second part  */
 
 #main-second-part {
+
+    display: flex;
+    gap: 40px;
     text-align: left;
     background-image: url('../images/celebration.png');
     background-repeat: no-repeat;
